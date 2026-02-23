@@ -46,3 +46,6 @@ namespace MyPlugins
         }
     }
 }
+
+
+//this is Hello World Plugin

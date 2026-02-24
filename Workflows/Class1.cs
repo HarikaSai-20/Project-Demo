@@ -54,6 +54,9 @@ namespace MYWORKFLOW
                     fullCity = cityRecord.GetAttributeValue<string>("nw_name");
                     tracingService.Trace($"Mapped {cityAbbreviation} to {fullCity}.");
 
+
+                    tracingService.Trace($"Mapped.");
+
                 }
                 else
                 {
@@ -78,3 +81,4 @@ namespace MYWORKFLOW
 
 
 
+//This is the Modified File

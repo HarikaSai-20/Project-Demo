@@ -53,6 +53,7 @@ namespace MYWORKFLOW
                     Entity cityRecord = result.Entities[0]; // Get the first match
                     fullCity = cityRecord.GetAttributeValue<string>("nw_name");
                     tracingService.Trace($"Mapped {cityAbbreviation} to {fullCity}.");
+
                 }
                 else
                 {
